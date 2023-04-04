@@ -1,0 +1,45 @@
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+.ring{
+	position: absolute;
+	top:40px;
+	right:5px;
+	z-index: 1;
+	width: 400px;
+}
+
+.img{
+    animation: float 6s ease-in-out infinite;
+	box-shadow: none !important;
+	z-index: 0;
+}
+
+.fadeupText{
+	animation-name: fadeInUp;
+  	animation-duration: 1s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
