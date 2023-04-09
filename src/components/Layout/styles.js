@@ -1,7 +1,6 @@
 import { Typography, styled, Button, Grid } from "@material-ui/core";
 
 export const LayoutContainer = styled(Grid)({
-    backgroundColor: '#efedea',
     height:"100vh"
 })
 

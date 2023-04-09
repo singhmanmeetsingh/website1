@@ -1,4 +1,4 @@
-import { Grid , styled } from '@material-ui/core';
+import { Grid , styled, Typography } from '@material-ui/core';
 import Logo from "../../assets/combine.svg";
 
 export const ImageContainer = styled(Grid)({
@@ -68,4 +68,42 @@ export const InfoImageContainer = styled(Grid)({
 
 export const InfoDetailContainer = styled(Grid)({
     display:"flex"
+})
+
+export const ExploreDetailsContainer = styled(Grid)({
+    alignItems:"center",
+    width:"100%",
+    flexDirection:"column"
+})
+export const ExploreDetailsTitle = styled(Grid)({
+  fontFamily: "Space Grotesk",
+  fontSize: "61px",
+  fontWeight: 700,
+  lineHeight: "73px",
+  letterSpacing: "0em",
+  textAlign: "center",
+  display:"flex"
+});
+
+export const ExploreDetailSubtitle = styled(Typography)({
+  fontFamily: "IBM Plex Sans",
+  fontSize: "19px",
+  fontWeight: 400,
+  lineHeight: "30px",
+  letterSpacing: "0em",
+  color: "#57534E",
+  display:"flex",
+  alignItems:"center",
+  margin:"20px 0",
+
+});
+
+export const ExploreSubTitleImage = styled(`img`)({
+    width:"20px",
+    height:"20px",
+    marginRight:"8px"
+})
+
+export const ExploreProjectContainer = styled(Grid)({
+    cursor:"pointer"
 })

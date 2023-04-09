@@ -3,7 +3,6 @@ import {
   ImageContainer,
   InfoContainer,
   LeftSection,
-  LeftSectionContainer,
   RightSection,
   LeftImage,
   RightImage,
@@ -14,6 +13,7 @@ import {
 import ArrowLeft from "../../assets/ArrowLeft.svg";
 import ArrowRight from "../../assets/ArrowRight.svg";
 import WireframeImg from "../../assets/Wireframe.svg";
+import LandingPageImg from "../../assets/LandingPage.svg";
 
 const ExploreImage = () => {
   return (
@@ -51,7 +51,7 @@ const ExploreImage = () => {
                 item
                 xs={3}
               >
-                <img src={WireframeImg}/>
+                <img src={LandingPageImg}/>
               </InfoImageContainer>
               <InfoDetailContainer item xs={9}>
                 {" "}

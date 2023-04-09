@@ -11,8 +11,10 @@ const Layout = ({children}) => {
       <LayoutContainer>
         <AppBar
           position="static"
-          elevation={0}
-          style={{ backgroundColor: "#efedea", marginTop: "20px" }}
+          elevation={-1}
+          style={{ 
+            backgroundColor: "#efedea", 
+            marginTop: "19px" }}
         >
           <Toolbar>
             <img src={HeaderLogo} alt="Logo" height={60} width={60} />
