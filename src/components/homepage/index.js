@@ -6,10 +6,10 @@ const Homepage = () => {
     return (
       <>
         <Grid container style={{ marginTop: '3rem' }}>
-          <Grid item xs={8}>
+          <Grid item xs={7}>
            <LeftSidetext/> 
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={5}>
             <MainLogo/>
           </Grid>
         </Grid>
