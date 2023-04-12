@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename='/website1'>
       <Suspense fallback={<div>Loading...</div>}>
         <AppRoutes />
       </Suspense>
